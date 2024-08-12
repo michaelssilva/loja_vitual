@@ -1,0 +1,27 @@
+.product {
+    cursor: pointer;
+}
+
+.selected {
+    border: 5px solid #ff8200; /* Borda "acesa" ao selecionar */
+}
+
+.botao{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.botao > button{
+    width: 15rem;
+    height: 5rem;
+    border: 2px solid #ff8200;
+    font-family:'open_sansbold';
+    font-size: 1rem;
+}
+
+.botao > button:hover{
+    transform: scale(105%);
+    background-color: #ff8200;
+    color: white;
+}
